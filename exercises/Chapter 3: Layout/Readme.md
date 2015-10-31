@@ -13,3 +13,5 @@ section {
   width: 940px;
 }
 ```
+
+Now do the same but only use tables.
