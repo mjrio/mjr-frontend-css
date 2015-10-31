@@ -10,10 +10,10 @@
 #### Chapter 1: The Basics
 
 - [Introduction (RFR)](docs/Chapter%201:%20The%20Basics/1.1%20Introduction.md)
-- [Selectors (RFR)](docs/Chapter%201:%20The%20Basics/1.2%20Selectors.md)
-- [Colors (RFR)](docs/Chapter%201:%20The%20Basics/1.3%20Colors.md)
-- [Units (RFR)](docs/Chapter%201:%20The%20Basics/1.4%20Units.md)
-- [Typography (RFR)](docs/Chapter%201:%20The%20Basics/1.5%20Typography.md)
+- [Colors (RFR)](docs/Chapter%201:%20The%20Basics/1.2%20Colors.md)
+- [Units (RFR)](docs/Chapter%201:%20The%20Basics/1.3%20Units.md)
+- [Typography (RFR)](docs/Chapter%201:%20The%20Basics/1.4%20Typography.md)
+- [Selectors (RFR)](docs/Chapter%201:%20The%20Basics/1.5%20Selectors.md)
 
 #### Chapter 2: Deep Dive
 
