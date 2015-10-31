@@ -35,8 +35,8 @@
 
 #### Chapter 5: Animations and Transitions
 
-- [Animations (RFR)](docs/Chapter%205:%20Animations%20and%20Transitions/5.1%20Animations.md)
-- [Transitions (IP:Wart)](docs/Chapter%205:%20Animations%20and%20Transitions/5.2%20Transitions.md)
+- [Transitions (RFR)](docs/Chapter%205:%20Animations%20and%20Transitions/5.1%20Transitions.md)
+- [Animations (RFR)](docs/Chapter%205:%20Animations%20and%20Transitions/5.2%20Animations.md)
 
 #### Chapter 6: Miscellaneous
 
@@ -46,7 +46,7 @@
 
 - [Project Structure (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.1%20Project%20Structure.md)
 - [Preprocessors (IP:Bjorn)](docs/Chapter%207:%20Scalable%20CSS/7.2%20Preprocessors.md)
-- [BEM (TD)](docs/Chapter%207:%20Scalable%20CSS/7.3%20BEM.md)
+- [BEM (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.3%20BEM.md)
 - [Testing CSS (TD)](docs/Chapter%207:%20Scalable%20CSS/7.4%20Testing%20CSS.md)
 - [Webpack (TD)](docs/Chapter%207:%20Scalable%20CSS/7.5%20Webpack.md)
 
