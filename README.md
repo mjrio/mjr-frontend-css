@@ -48,7 +48,6 @@
 - [Preprocessors (IP:Bjorn)](docs/Chapter%207:%20Scalable%20CSS/7.2%20Preprocessors.md)
 - [BEM (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.3%20BEM.md)
 - [Testing CSS (TD)](docs/Chapter%207:%20Scalable%20CSS/7.4%20Testing%20CSS.md)
-- [Webpack (TD)](docs/Chapter%207:%20Scalable%20CSS/7.5%20Webpack.md)
 
 #### Exercises
 
