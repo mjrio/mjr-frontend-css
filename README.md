@@ -7,7 +7,7 @@
 - (RFR) = Ready For Review
 - (D) = Done
 
-#### Chapter 1: The Basics
+#### Chapter 1: The Basics (slides: bjorn)
 
 - [Introduction (RFR)](docs/Chapter%201:%20The%20Basics/1.1%20Introduction.md)
 - [Colors (RFR)](docs/Chapter%201:%20The%20Basics/1.2%20Colors.md)
@@ -15,25 +15,25 @@
 - [Typography (RFR)](docs/Chapter%201:%20The%20Basics/1.4%20Typography.md)
 - [Selectors (RFR)](docs/Chapter%201:%20The%20Basics/1.5%20Selectors.md)
 
-#### Chapter 2: Deep Dive
+#### Chapter 2: Deep Dive (slides: wart)
 
 - [CCSOM (RFR)](docs/Chapter%202:%20Deep%20Dive/2.1%20DOM%20and%20CSSOM.md)
 - [Render Tree (RFR)](docs/Chapter%202:%20Deep%20Dive/2.2%20Render%20Tree.md)
 - [Render Blocking CSS (RFR)](docs/Chapter%202:%20Deep%20Dive/2.3%20Render%20Blocking%20CSS.md)
 
-#### Chapter 3: Layout
+#### Chapter 3: Layout (slides: wart)
 
 - [Sizing (RFR)](docs/Chapter%203:%20Layout/3.1%20Sizing.md)
 - [Positioning (RFR)](docs/Chapter%203:%20Layout/3.2%20Positioning.md)
 - [Alignment (RFR)](docs/Chapter%203:%20Layout/3.3%20Alignment.md)
 
-#### Chapter 4: Responsive Grid
+#### Chapter 4: Responsive Grid (slides: wart)
 
 - [Media Queries (RFR)](docs/Chapter%204:%20Responsive%20Grid/4.1%20Media%20Queries.md)
 - [Grid Systems (RFR)](docs/Chapter%204:%20Responsive%20Grid/4.2%20Grid%20Systems.md)
 - [Responsive Grid (RFR)](docs/Chapter%204:%20Responsive%20Grid/4.3%20Responsive%20Grid.md)
 
-#### Chapter 5: Animations and Transitions
+#### Chapter 5: Animations and Transitions (slides: bjorn)
 
 - [Transitions (RFR)](docs/Chapter%205:%20Animations%20and%20Transitions/5.1%20Transitions.md)
 - [Animations (RFR)](docs/Chapter%205:%20Animations%20and%20Transitions/5.2%20Animations.md)
@@ -42,7 +42,7 @@
 
 - [Miscellaneous (TD)](docs/Chapter%206:%20Miscellaneous/6.1%20Miscellaneous.md)
 
-#### Chapter 7: Scalable CSS
+#### Chapter 7: Scalable CSS  (slides: bjorn)
 
 - [Project Structure (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.1%20Project%20Structure.md)
 - [Preprocessors (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.2%20Preprocessors.md)
