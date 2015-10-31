@@ -24,7 +24,7 @@
 #### Chapter 3: Layout
 
 - [Sizing (RFR)](docs/Chapter%203:%20Layout/3.1%20Sizing.md)
-- [Positioning (IP:Wart)](docs/Chapter%203:%20Layout/3.2%20Positioning.md)
+- [Positioning (RFR)](docs/Chapter%203:%20Layout/3.2%20Positioning.md)
 - [Alignment (RFR)](docs/Chapter%203:%20Layout/3.3%20Alignment.md)
 
 #### Chapter 4: Responsive Grid
@@ -45,7 +45,7 @@
 #### Chapter 7: Scalable CSS
 
 - [Project Structure (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.1%20Project%20Structure.md)
-- [Preprocessors (IP:Bjorn)](docs/Chapter%207:%20Scalable%20CSS/7.2%20Preprocessors.md)
+- [Preprocessors (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.2%20Preprocessors.md)
 - [BEM (RFR)](docs/Chapter%207:%20Scalable%20CSS/7.3%20BEM.md)
 - [Testing CSS (TD)](docs/Chapter%207:%20Scalable%20CSS/7.4%20Testing%20CSS.md)
 
