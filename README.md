@@ -15,11 +15,11 @@
 - [Typography (RFR)](docs/Chapter%201:%20The%20Basics/1.4%20Typography.md)
 - [Selectors (RFR)](docs/Chapter%201:%20The%20Basics/1.5%20Selectors.md)
 
-#### Chapter 2: Deep Dive (slides: wart)
+#### Chapter 2: Deep Dive
 
-- [CCSOM (RFR)](docs/Chapter%202:%20Deep%20Dive/2.1%20DOM%20and%20CSSOM.md)
-- [Render Tree (RFR)](docs/Chapter%202:%20Deep%20Dive/2.2%20Render%20Tree.md)
-- [Render Blocking CSS (RFR)](docs/Chapter%202:%20Deep%20Dive/2.3%20Render%20Blocking%20CSS.md)
+- [CCSOM (D)](docs/Chapter%202:%20Deep%20Dive/2.1%20DOM%20and%20CSSOM.md)
+- [Render Tree (D)](docs/Chapter%202:%20Deep%20Dive/2.2%20Render%20Tree.md)
+- [Render Blocking CSS (D)](docs/Chapter%202:%20Deep%20Dive/2.3%20Render%20Blocking%20CSS.md)
 
 #### Chapter 3: Layout (slides: wart)
 
