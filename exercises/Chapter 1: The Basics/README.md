@@ -46,6 +46,22 @@ Use the [google fonts API](https://www.google.com/fonts) to give the elements be
 
 ### Selectors
 
+Write down the specificity for following selectors:
+```css
+#example:focus {
+  color: #bada55;
+}
+
+.example .example {
+  color: #bada55;
+}
+
+div #example::before {
+  color: #bada55 !important;
+}
+```
+
+Complete following HTML markup with some CSS:
 ```html
 <html>
   <body class="green content">
@@ -68,3 +84,9 @@ Use the [google fonts API](https://www.google.com/fonts) to give the elements be
   </body>
 </html>
 ```
+
+Create a custom checkbox (advanced):
+```html
+<input type="checkbox"/>
+```
+*Tip: you may have to use attribute selectors, the visibility property, pseudo elements, and much more...*
