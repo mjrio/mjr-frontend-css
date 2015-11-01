@@ -29,9 +29,16 @@ Use the [google fonts API](https://www.google.com/fonts) to give the elements be
     <h2>How awesome can CSS be?</h2>
     <p>
       First of all, welcome at Euricom! We'll get to know each other better at the next .NET Cruise!
-      Now lets add some more text: Lorem ipsum dolor sit amet, ex sonet melius constituam ius, te utroque fierent vel. Eam in quod fugit omnes. Per et legimus voluptatum, has ignota aperiam qualisque no, eu quot graeci dissentias eam. Eum ad magna illum partem, in vix tempor dicunt. Mucius maluisset referrentur pro ut. Quo ex veri porro dolorem, lorem efficiendi necessitatibus eu vim, ius no dicant deleniti.
+      Now lets add some more text: Lorem ipsum dolor sit amet, ex sonet melius constituam ius, te utroque fierent vel. 
+      Eam in quod fugit omnes. Per et legimus voluptatum, has ignota aperiam qualisque no, eu quot graeci dissentias eam. 
+      Eum ad magna illum partem, in vix tempor dicunt. Mucius maluisset referrentur pro ut. 
+      Quo ex veri porro dolorem, lorem efficiendi necessitatibus eu vim, ius no dicant deleniti.
 
-No eos nusquam interpretaris, denique evertitur pri cu. Ea diam libris signiferumque eos, nobis aperiam quo te, per te quod etiam adolescens. Ex dolor ubique essent sea, cu quo dolorem accusam adolescens, accusam intellegat deterruisset in eam. Unum veritus ne usu, eos id iisque ocurreret instructior. Sumo erant eirmod ex sea. Ei cibo facer est, sententiae efficiendi cu vix, ex duis epicuri iracundia cum. Mei nusquam tacimates accusamus an, enim petentium consequat vis in, eleifend intellegam mei ut.
+      No eos nusquam interpretaris, denique evertitur pri cu. Ea diam libris signiferumque eos, nobis aperiam quo te, 
+      per te quod etiam adolescens. Ex dolor ubique essent sea, cu quo dolorem accusam adolescens, 
+      accusam intellegat deterruisset in eam. Unum veritus ne usu, eos id iisque ocurreret instructior. 
+      Sumo erant eirmod ex sea. Ei cibo facer est, sententiae efficiendi cu vix, ex duis epicuri iracundia cum. 
+      Mei nusquam tacimates accusamus an, enim petentium consequat vis in, eleifend intellegam mei ut.
     </p>
   </body>
 </html>
