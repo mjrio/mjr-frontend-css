@@ -16,7 +16,7 @@
 - [Render Tree](docs/Chapter%202:%20Deep%20Dive/2.2%20Render%20Tree.md)
 - [Render Blocking CSS](docs/Chapter%202:%20Deep%20Dive/2.3%20Render%20Blocking%20CSS.md)
 
-#### Chapter 3: Layout (slides: wart)
+#### Chapter 3: Layout
 
 - [Sizing](docs/Chapter%203:%20Layout/3.1%20Sizing.md)
 - [Positioning](docs/Chapter%203:%20Layout/3.2%20Positioning.md)
@@ -37,7 +37,7 @@
 
 - [Miscellaneous](docs/Chapter%206:%20Miscellaneous/6.1%20Miscellaneous.md)
 
-#### Chapter 7: Scalable CSS  (slides: bjorn)
+#### Chapter 7: Scalable CSS
 
 - [Project Structure](docs/Chapter%207:%20Scalable%20CSS/7.1%20Project%20Structure.md)
 - [Preprocessors](docs/Chapter%207:%20Scalable%20CSS/7.2%20Preprocessors.md)
