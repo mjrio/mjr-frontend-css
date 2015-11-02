@@ -7,7 +7,8 @@ Now that we know how we can target different elements it's time to write some CS
 ```html
 <html>
   <body>
-    <div class="parent">My font size should be 12px</div>
+    <div class="parent">
+      My font size should be 12px
       <div class="first">I should have a hardcoded height of 20px</div>
       <div class="second">I should have the height of the screen</div>
       <div class="third">My font should be twice as big as my parents font even when it changes</div>
