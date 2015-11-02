@@ -117,3 +117,4 @@ Create a custom checkbox (advanced):
   <button type="submit">Save</button>
 </form>  
 ```
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
