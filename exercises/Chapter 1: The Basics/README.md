@@ -118,3 +118,5 @@ Create a custom checkbox (advanced):
 </form>  
 ```
 ![alt text](Screen%20Shot%202015-11-03%20at%2000.10.02.png)
+![alt text](Screen%20Shot%202015-11-03%20at%2000.10.12.png)
+![alt text](Screen%20Shot%202015-11-03%20at%2000.10.22.png)
