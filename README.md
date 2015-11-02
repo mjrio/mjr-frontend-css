@@ -22,7 +22,7 @@
 - [Positioning](docs/Chapter%203:%20Layout/3.2%20Positioning.md)
 - [Alignment](docs/Chapter%203:%20Layout/3.3%20Alignment.md)
 
-#### Chapter 4: Responsive Grid (slides: wart)
+#### Chapter 4: Responsive Grid
 
 - [Media Queries](docs/Chapter%204:%20Responsive%20Grid/4.1%20Media%20Queries.md)
 - [Grid Systems](docs/Chapter%204:%20Responsive%20Grid/4.2%20Grid%20Systems.md)
