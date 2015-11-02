@@ -91,3 +91,29 @@ Create a custom checkbox (advanced):
 <input type="checkbox"/>
 ```
 *Tip: you may have to use attribute selectors, the visibility property, pseudo elements, and much more...*
+
+### CSS Valid Form
+
+```html
+<form action="#" novalidate>
+  <h3>CSS Forms</h3>
+  <div class="form-input">    
+    <input type="text" placeholder="I am optional"/>
+    <span class="form-input-validation"></span>
+  </div>
+  <div class="form-input">    
+    <input type="text" placeholder="I am required" required/>    
+    <span class="form-input-required">*</span>
+    <span class="form-input-validation"></span>
+  </div>
+  <div class="form-input">    
+    <input type="email" placeholder="I am an email"/>
+    <span class="form-input-validation"></span>
+  </div>
+  <div class="form-input">    
+    <input type="text" placeholder="I am disabled" disabled/>
+    <span class="form-input-validation"></span>
+  </div>
+  <button type="submit">Save</button>
+</form>  
+```
