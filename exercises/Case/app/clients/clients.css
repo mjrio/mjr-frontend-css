@@ -1,0 +1,56 @@
+.clients {
+    margin: 50px 0;
+}
+
+.clients__blocks {
+    box-sizing: border-box;
+    margin: 50px auto 0;
+    padding: 0 10%;
+    width: 80%;
+}
+
+.client {
+    border-bottom: 1px solid #eee;
+    height: 128px;
+    padding: 30px 0;
+}
+
+.client:last-child {
+    border: none;
+}
+
+.client__picture {
+    border: 3px solid rgb(224, 146, 26);
+    border-radius: 50%;
+    box-sizing: border-box;
+    float: left;
+    height: 128px;
+    width: 128px;
+}
+
+.client__text {
+    float: left;
+    padding-left: 40px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    vertical-align: middle;
+}
+
+.client__description {
+    font-weight: 300;
+}
+
+.client:nth-child(even) .client__picture {
+    float: right;
+}
+
+.client:nth-child(even) .client__text {
+    float: right;
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.client:nth-child(even) {
+    text-align: right;
+}
