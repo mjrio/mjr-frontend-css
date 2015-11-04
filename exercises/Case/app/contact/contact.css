@@ -1,0 +1,29 @@
+.contact {
+    margin: 50px 0;
+}
+
+.contact__blocks {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 0 10%;
+    width: 100%;
+}
+
+.channel {
+    box-sizing: border-box;
+    color: #444;
+    float: left;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    width: 33.33%;
+}
+
+.channel__icon {
+    font-size: 70px;
+}
+
+.channel__text {
+    font-size: 24px;
+}

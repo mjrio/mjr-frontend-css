@@ -12,8 +12,8 @@
 
 .navbar__logo {
     float: left;
-    font-size: 40px;
-    line-height: 40px;
+    height: 40px;
+    width: 40px;
 }
 
 .navbar__items {
@@ -21,11 +21,11 @@
 }
 
 .navbar__item {
-    display: inline-block;
     color: inherit;
+    display: inline-block;
     font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: inherit;
     line-height: 40px;
     padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: inherit;
 }
