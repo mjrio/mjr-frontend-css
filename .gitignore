@@ -1,0 +1,10 @@
+# LIBRARIES #
+node_modules
+bower_components
+
+# IDE #
+.idea
+
+# COMPILED #
+.tmp
+.dst

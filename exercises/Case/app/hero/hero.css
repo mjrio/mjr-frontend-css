@@ -1,0 +1,25 @@
+.hero {
+    display: table;
+    background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/3S8PYJ7U5O.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.hero::after {
+    content: '';
+    background-color: rgba(224, 146, 26, .8);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero__content {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    z-index: 1;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #fff;
+    border-bottom: solid thin #e5e5e5;
+    display: inline-block;
+    left: 0;
+    padding: 10px 10%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar__logo {
+    float: left;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.navbar__items {
+    float: right;
+}
+
+.navbar__item {
+    display: inline-block;
+    color: inherit;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: inherit;
+    line-height: 40px;
+    padding: 0 10px;
+}
