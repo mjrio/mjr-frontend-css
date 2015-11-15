@@ -39,15 +39,6 @@
 - [Preprocessors](docs/Chapter%206:%20Scalable%20CSS/6.2%20Preprocessors.md)
 - [BEM](docs/Chapter%206:%20Scalable%20CSS/6.3%20BEM.md)
 
-#### Exercises
-
-- [Chapter 1: The Basics](exercises/Chapter%201:%20The%20Basics)
-- [Chapter 3: Layout](exercises/Chapter%203:%20Layout)
-- [Chapter 4: Responsive Grid](exercises/Chapter%204:%20Responsive%20Grid)
-- [Chapter 5: Animations and Transitions](exercises/Chapter%205:%20Animations%20and%20Transitions)
-- [Chapter 6: Miscellaneous](exercises/Chapter%206:%20Miscellaneous)
-- [Chapter 7: Scalable CSS](exercises/Chapter%207:%20Scalable%20CSS)
-
 #### Resources 
 
 All content is based on articles found on the internet. A list of the resources can be found [here](./docs/resources.md).
