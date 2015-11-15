@@ -1,0 +1,20 @@
+$header-text-color: rgba(#fff, .9);
+
+.header {
+  background: url('../../assets/bg.jpg') no-repeat fixed;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.header__text {
+  bottom: 0;
+  color: $header-text-color;
+  padding-bottom: 30px;
+  position: absolute;
+  font-size: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}

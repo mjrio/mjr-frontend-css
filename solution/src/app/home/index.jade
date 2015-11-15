@@ -1,0 +1,25 @@
+include ../../components/header/header
+include ../../components/list/list
+
+section.game
+    +header
+        span {{homeCtrl.game.homeTeam}}
+        br
+        span vs {{homeCtrl.game.outTeam}}
+    .content
+        .game__info
+            p {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
+            p {{homeCtrl.game.stadium}}
+
+        .game__teams
+            .game__team--home
+                .game__team-title {{homeCtrl.game.homeTeam}}
+                +list
+                    +list-item(ng-repeat="player in homeCtrl.homePlayers")
+                        +list-link(ng-href="#/player/{{player.id}}") {{player.name}}
+
+            .game__team--out
+                .game__team-title {{homeCtrl.game.outTeam}}
+                +list
+                    +list-item(ng-repeat="player in homeCtrl.outPlayers")
+                        +list-link(ng-href="#/player/{{player.id}}") {{player.name}}

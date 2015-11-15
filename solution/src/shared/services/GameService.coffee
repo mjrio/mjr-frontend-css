@@ -4,6 +4,6 @@ class GameService
     outTeam: 'Spain'
     date: '17/11'
     start: '20:45'
-    stadium: 'Koning Boudewijnstadion
+    stadium: 'Koning Boudewijnstadion'
 
 module.exports = GameService

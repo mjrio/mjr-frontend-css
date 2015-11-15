@@ -1,0 +1,15 @@
+{
+  "name": "cssCase",
+  "version": "1.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0",
+    "reset-css": "~2.0.2011012602"
+  }
+}

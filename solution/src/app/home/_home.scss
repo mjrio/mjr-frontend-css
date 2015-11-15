@@ -1,0 +1,36 @@
+.game__teams {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+}
+
+%game__team {
+  width: 48%;
+}
+
+.game__team--home {
+  @extend %game__team;
+}
+
+.game__team--out {
+  @extend %game__team;
+}
+
+.game__team-title {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.game__title {
+  font-size: 30px;
+  text-align: center;
+  color: $primary-color;
+}
+
+.game__info {
+  font-size: 40px;
+  text-align: center;
+  margin: 100px 0;
+}
