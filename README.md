@@ -33,16 +33,11 @@
 - [Transitions](docs/Chapter%205:%20Animations%20and%20Transitions/5.1%20Transitions.md)
 - [Animations](docs/Chapter%205:%20Animations%20and%20Transitions/5.2%20Animations.md)
 
-#### Chapter 6: Miscellaneous (TODO)
+#### Chapter 6: Scalable CSS
 
-- [Miscellaneous](docs/Chapter%206:%20Miscellaneous/6.1%20Miscellaneous.md)
-
-#### Chapter 7: Scalable CSS
-
-- [Project Structure](docs/Chapter%207:%20Scalable%20CSS/7.1%20Project%20Structure.md)
-- [Preprocessors](docs/Chapter%207:%20Scalable%20CSS/7.2%20Preprocessors.md)
-- [BEM](docs/Chapter%207:%20Scalable%20CSS/7.3%20BEM.md)
-- [Testing CSS (TODO)](docs/Chapter%207:%20Scalable%20CSS/7.4%20Testing%20CSS.md)
+- [Project Structure](docs/Chapter%206:%20Scalable%20CSS/6.1%20Project%20Structure.md)
+- [Preprocessors](docs/Chapter%206:%20Scalable%20CSS/6.2%20Preprocessors.md)
+- [BEM](docs/Chapter%206:%20Scalable%20CSS/6.3%20BEM.md)
 
 #### Exercises
 
