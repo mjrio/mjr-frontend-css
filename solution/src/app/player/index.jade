@@ -1,3 +1,74 @@
 section.player
-   .header
-      .name {{playerCtrl.player.name}}
+    .header
+        .kit-number {{playerCtrl.player.number}}
+    .content
+        .info
+            img.info__picture(src="{{playerCtrl.player.picture}}")
+            h1.info__name {{playerCtrl.player.name}}
+
+        .details
+            .details__block
+                img.details__icon(src="http://placehold.it/30x30")
+                .details__text {{playerCtrl.player.size}}
+            .details__block
+                img.details__icon(src="http://placehold.it/30x30")
+                .details__text {{playerCtrl.player.weight}}
+            .details__block
+                img.details__icon(src="http://placehold.it/30x30")
+                .details__text {{playerCtrl.player.position}}
+
+        .bio {{playerCtrl.player.bio}}
+
+        .stats
+            .stats__block--primary
+                .stats__number {{playerCtrl.player.caps}}
+                .stats__title caps
+
+            .stats__block--secondary
+                .stats__number {{playerCtrl.player.games}}
+                .stats__title wedstrijden
+
+            .stats__block--tertiary
+                .stats__number {{playerCtrl.player.goals}}
+                .stats__title doelpunten
+
+            .stats__block--quaternary
+                .stats__number {{playerCtrl.player.clubs}}
+                .stats__title clubs
+
+        h2.subtitle Laatste uitslagen
+
+        .fixture
+            .fixture__team--home België
+            div.fixture__logo--home
+                img(src="http://placehold.it/50x50")
+
+            .fixture__score 3 - 1
+
+            div.fixture__logo--away
+                img(src="http://placehold.it/50x50")
+            .fixture__team--away Italië
+
+        .fixture
+            .fixture__team--home België
+            div.fixture__logo--home
+                img(src="http://placehold.it/50x50")
+
+            .fixture__score 3 - 1
+
+            div.fixture__logo--away
+                img(src="http://placehold.it/50x50")
+            .fixture__team--away Italië
+
+        .fixture
+            .fixture__team--home België
+            div.fixture__logo--home
+                img(src="http://placehold.it/50x50")
+
+            .fixture__score 3 - 1
+
+            div.fixture__logo--away
+                img(src="http://placehold.it/50x50")
+            .fixture__team--away Italië
+
+        a.btn(href="#") Bekijk alle uitslagen

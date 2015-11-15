@@ -1,0 +1,188 @@
+.player {
+  text-align: center;
+
+  .subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-transform: uppercase;
+  }
+
+  .btn {
+    background: $color-primary;
+    color: $color-white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 15px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background .1s linear;
+
+    &:hover {
+      background: $color-black;
+    }
+  }
+
+  .content {
+    margin: 0 auto 50px;
+    max-width: 800px;
+  }
+
+  .header {
+    background-position: 0 50%;
+    background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PS9F6BF99L.jpg");
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .kit-number {
+    color: $color-white;
+    font-size: 400px;
+    font-weight: 700;
+    line-height: 570px;
+    opacity: .5;
+  }
+
+  .info {
+    margin-top: -70px;
+  }
+
+  .info__picture {
+    border: 10px solid $color-white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 140px;
+    position: relative;
+    width: 140px;
+    z-index: 1;
+  }
+
+  .info__name {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 30px;
+    text-transform: uppercase;
+  }
+
+  .details__block {
+    display: inline-block;
+    margin: 20px 50px 30px 0;
+    position: relative;
+    width: 120px;
+    text-align: left;
+  }
+
+  .details__icon {
+    display: inline-block;
+  }
+
+  .details__text {
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .bio {
+    margin: 20px 0 30px;
+  }
+
+  %stats__block {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    width: 160px;
+  }
+
+  .stats__block--primary {
+    @extend %stats__block;
+    background: $color-primary;
+    color: $color-white;
+  }
+
+  .stats__block--secondary {
+    @extend %stats__block;
+    background: $color-secondary;
+    color: $color-black;
+  }
+
+  .stats__block--tertiary {
+    @extend %stats__block;
+    background: $color-tertiary;
+    color: $color-white;
+  }
+
+  .stats__block--quaternary {
+    @extend %stats__block;
+    background: $color-quaternary;
+    color: $color-white;
+  }
+
+  .stats {
+    margin-top: 50px;
+  }
+
+  .stats__number {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .stats__title {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .fixture {
+    display: table;
+    font-weight: 700;
+    margin: 20px auto 60px;
+    table-layout: fixed;
+    text-transform: uppercase;
+    width: 600px;
+  }
+
+  .fixture__score {
+    display: table-cell;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+
+  %fixture__team {
+    display: table-cell;
+    padding: 0 20px;
+    vertical-align: middle;
+  }
+
+  .fixture__team--home {
+    @extend %fixture__team;
+    text-align: right;
+  }
+
+  .fixture__team--away {
+    @extend %fixture__team;
+    text-align: left;
+  }
+
+  %fixture__logo {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50px;
+  }
+
+  .fixture__logo--home {
+    @extend %fixture__logo;
+    text-align: right;
+  }
+
+  .fixture__logo--away {
+    @extend %fixture__logo;
+    text-align: left;
+  }
+
+}
