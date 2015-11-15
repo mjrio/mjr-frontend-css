@@ -1,13 +1,25 @@
-section.home
-   .header
-       span.home-team {{homeCtrl.game.homeTeam}}
-       span vs
-       span.out-team {{homeCtrl.game.outTeam}}
+include ../../components/header/header
+include ../../components/list/list
 
-    .content
-        ul.players
-            li.player(ng-repeat="player in homeCtrl.homePlayers")
-                a(ng-href="#/player/{{player.id}}") {{player.name}}
+section
+    +header
+        span {{homeCtrl.game.homeTeam}}
+        br
+        span vs {{homeCtrl.game.outTeam}}
+    div
+        div
+            p {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
+            p {{homeCtrl.game.stadium}}
 
-        ul.players
-            li.player(ng-repeat="player in homeCtrl.outPlayers") {{player.name}}
+        div
+            div
+                div {{homeCtrl.game.homeTeam}}
+                +list
+                    +list-item(ng-repeat="player in homeCtrl.homePlayers")
+                        +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}
+
+            div
+                div {{homeCtrl.game.outTeam}}
+                +list
+                    +list-item(ng-repeat="player in homeCtrl.outPlayers")
+                        +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}
