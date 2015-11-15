@@ -1,0 +1,13 @@
+section.home
+   .header
+       span.home-team {{homeCtrl.game.homeTeam}}
+       span vs
+       span.out-team {{homeCtrl.game.outTeam}}
+
+    .content
+        ul.players
+            li.player(ng-repeat="player in homeCtrl.homePlayers")
+                a(ng-href="#/player/{{player.id}}") {{player.name}}
+
+        ul.players
+            li.player(ng-repeat="player in homeCtrl.outPlayers") {{player.name}}

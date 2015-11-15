@@ -1,0 +1,30 @@
+{
+  "name": "cssCase",
+  "version": "1.0.0",
+  "devDependencies": {
+    "coffeeify": "^1.1.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-flatten": "^0.1.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rev": "^5.1.0",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-usemin": "^0.3.11",
+    "wiredep": "^2.2.2"
+  },
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-route": "^1.4.7"
+  }
+}
