@@ -16,10 +16,10 @@ section.game
                 .game__team-title {{homeCtrl.game.homeTeam}}
                 +list
                     +list-item(ng-repeat="player in homeCtrl.homePlayers")
-                        +list-link(ng-href="#/player/{{player.id}}") {{player.name}}
+                        +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}
 
             .game__team--out
                 .game__team-title {{homeCtrl.game.outTeam}}
                 +list
                     +list-item(ng-repeat="player in homeCtrl.outPlayers")
-                        +list-link(ng-href="#/player/{{player.id}}") {{player.name}}
+                        +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}

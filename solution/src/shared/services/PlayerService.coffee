@@ -142,7 +142,7 @@ class PlayerService
       id: 'david-silva'
       name: 'David Silva'
       team: 'Spain'
-      number: '4'
+      number: '21'
       picture: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/David_Silva_Euro_2012_vs_France_01.jpg/550px-David_Silva_Euro_2012_vs_France_01.jpg'
       size: '170 cm'
       weight: '67 kg'
