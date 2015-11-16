@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Custom Font';
+  font-weight: 400;
+  src: url('./assets/custom-font-regular.woff2');
+}
+
+@font-face {
+  font-family: 'Custom Font';
+  font-weight: 700;
+  src: url('./assets/custom-font-bold.woff2');
+}
+
+body{
+  font-family: 'Custom Font', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

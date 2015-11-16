@@ -1,25 +1,23 @@
 include ../../components/header/header
 include ../../components/list/list
 
+mixin team(name, players)
+    .team
+        .team__name #{name}
+        +list
+            +list-item(ng-repeat=players)
+                +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}
+
 section
     +header
         span {{homeCtrl.game.homeTeam}}
         br
         span vs {{homeCtrl.game.outTeam}}
-    div
-        div
-            p {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
-            p {{homeCtrl.game.stadium}}
 
-        div
-            div
-                div {{homeCtrl.game.homeTeam}}
-                +list
-                    +list-item(ng-repeat="player in homeCtrl.homePlayers")
-                        +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}
+    div.event
+        p.event__date {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
+        p.event__location {{homeCtrl.game.stadium}}
 
-            div
-                div {{homeCtrl.game.outTeam}}
-                +list
-                    +list-item(ng-repeat="player in homeCtrl.outPlayers")
-                        +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}
+    div.teams
+        +team('{{homeCtrl.game.homeTeam}}', 'player in homeCtrl.homePlayers')
+        +team('{{homeCtrl.game.outTeam}}', 'player in homeCtrl.outPlayers')

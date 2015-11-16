@@ -1,74 +1,69 @@
-section
-    div
-        div {{playerCtrl.player.number}}
-    div
-        div
-            img(src="{{playerCtrl.player.picture}}")
-            h1 {{playerCtrl.player.name}}
+include ../../components/header/header
 
-        div
-            div
-                img(src="assets/length.png")
-                div {{playerCtrl.player.size}}
-            div
-                img(src="assets/weight.png")
-                div {{playerCtrl.player.weight}}
-            div
-                img(src="assets/jersey.png")
-                div {{playerCtrl.player.position}}
+section.player
+    +header
+        span.player__number {{playerCtrl.player.number}}
 
-        div {{playerCtrl.player.bio}}
+    img.player__picture(src="{{playerCtrl.player.picture}}")
+    h1.player__name {{playerCtrl.player.name}}
 
-        div
-            div
-                div {{playerCtrl.player.caps}}
-                div caps
+    .specs
+        .spec
+            img.spec__icon(src="assets/length.png")
+            .spec__text {{playerCtrl.player.size}}
+        .spec
+            img.spec__icon(src="assets/weight.png")
+            .spec__text {{playerCtrl.player.weight}}
+        .spec
+            img.spec__icon(src="assets/jersey.png")
+            .spec__text {{playerCtrl.player.position}}
 
-            div
-                div {{playerCtrl.player.games}}
-                div wedstrijden
+    .bio {{playerCtrl.player.bio}}
 
-            div
-                div {{playerCtrl.player.goals}}
-                div doelpunten
+    .stats
+        .stat
+            .stat__number {{playerCtrl.player.caps}}
+            .stat__text caps
 
-            div
-                div {{playerCtrl.player.clubs}}
-                div clubs
+        .stat
+            .stat__number {{playerCtrl.player.games}}
+            .stat__text wedstrijden
 
-        h2 Laatste uitslagen
+        .stat
+            .stat__number {{playerCtrl.player.goals}}
+            .stat__text doelpunten
 
-        div
-            div België
-            div
-                img(src="assets/Belgium.png")
+        .stat
+            .stat__number {{playerCtrl.player.clubs}}
+            .stat__text clubs
 
-            div 3 - 1
+    .title Laatste uitslagen
 
-            div
-                img(src="assets/Italy.png")
-            div Italië
+    .game
+        .game__team België
+        img.game__flag(src="assets/Belgium.png")
 
-        div
-            div België
-            div
-                img(src="assets/Belgium.png")
+        .game__score 3 - 1
 
-            div 3 - 1
+        img.game__flag(src="assets/Italy.png")
+        .game__team Italië
 
-            div
-                img(src="assets/Italy.png")
-            div Italië
+    .game
+        .game__team België
+        img.game__flag(src="assets/Belgium.png")
 
-        div
-            div België
-            div
-                img(src="assets/Belgium.png")
+        .game__score 3 - 1
 
-            div 3 - 1
+        img.game__team(src="assets/Italy.png")
+        .game__team Italië
 
-            div
-                img(src="assets/Italy.png")
-            div Italië
+    .game
+        .game__team België
+        img.game__flag(src="assets/Belgium.png")
 
-        a(href="/#/") Terug naar overzicht
+        .game__score 3 - 1
+
+        img.game__team(src="assets/Italy.png")
+        .game__team Italië
+
+    a.btn(href="/#/") Terug naar overzicht
