@@ -1,0 +1,23 @@
+$list-item-border-color: #e5e5e5;
+
+.list__link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+
+  &:hover {
+    background-color: lighten($list-item-border-color, 5%);
+  }
+}
+
+.list__item {
+  border: solid thin $list-item-border-color;
+  border-bottom: none;
+  &:last-child {
+    border-bottom: solid thin $list-item-border-color;
+  }
+}
