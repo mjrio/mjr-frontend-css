@@ -32,10 +32,6 @@
   }
 
   .header {
-    background-position: 0 50%;
-    background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PS9F6BF99L.jpg");
-    background-size: cover;
-    height: 400px;
     overflow: hidden;
   }
 
@@ -78,6 +74,7 @@
 
   .details__icon {
     display: inline-block;
+    width: 30px;
   }
 
   .details__text {
@@ -183,6 +180,10 @@
   .fixture__logo--away {
     @extend %fixture__logo;
     text-align: left;
+  }
+
+  .fixture__logo-image {
+    max-width: 50px;
   }
 
 }

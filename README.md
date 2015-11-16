@@ -28,7 +28,7 @@
 - [Grid Systems](docs/Chapter%204:%20Responsive%20Grid/4.2%20Grid%20Systems.md)
 - [Responsive Grid](docs/Chapter%204:%20Responsive%20Grid/4.3%20Responsive%20Grid.md)
 
-#### Chapter 5: Animations and Transitions (slides: bjorn)
+#### Chapter 5: Animations and Transitions
 
 - [Transitions](docs/Chapter%205:%20Animations%20and%20Transitions/5.1%20Transitions.md)
 - [Animations](docs/Chapter%205:%20Animations%20and%20Transitions/5.2%20Animations.md)
