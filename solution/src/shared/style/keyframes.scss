@@ -1,0 +1,26 @@
+@keyframes player-number {
+  from {
+    transform: scale(20);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes player-picture {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
