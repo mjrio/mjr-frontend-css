@@ -41,6 +41,11 @@
     font-weight: 700;
     line-height: 570px;
     opacity: .5;
+
+    animation-name: player-number;
+    animation-duration: .4s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
   }
 
   .info {
@@ -55,6 +60,11 @@
     position: relative;
     width: 140px;
     z-index: 1;
+
+    animation-name: player-picture;
+    animation-duration: .4s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
   }
 
   .info__name {
@@ -95,6 +105,14 @@
     margin: 0 20px;
     padding: 10px;
     width: 160px;
+
+    &:hover {
+      animation-name: wiggle;
+      animation-duration: .1s;
+      animation-timing-function: ease-out;
+      animation-iteration-count: 5;
+      animation-direction: alternate;
+    }
   }
 
   .stats__block--primary {
