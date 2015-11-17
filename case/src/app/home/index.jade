@@ -1,11 +1,12 @@
 include ../../components/header/header
 include ../../components/list/list
 
-mixin team(name, players)
+mixin team(name, list)
+    - var listExpression = 'player in ' + list;
     .team
         .team__name #{name}
         +list
-            +list-item(ng-repeat=players)
+            +list-item(ng-repeat=listExpression)
                 +list-link(ng-href="#/player/{{player.id}}") {{player.number}} - {{player.name}}
 
 section
@@ -14,10 +15,13 @@ section
         br
         span vs {{homeCtrl.game.outTeam}}
 
-    div.event
-        p.event__date {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
-        p.event__location {{homeCtrl.game.stadium}}
+    div.event(ng-switch="homeCtrl.game.cancelled")
+        div(ng-switch-default)
+            p.event__date {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
+            p.event__location {{homeCtrl.game.stadium}}
+        div(ng-switch-when="true")
+            p.event--cancelled Cancelled
 
     div.teams
-        +team('{{homeCtrl.game.homeTeam}}', 'player in homeCtrl.homePlayers')
-        +team('{{homeCtrl.game.outTeam}}', 'player in homeCtrl.outPlayers')
+        +team('{{homeCtrl.game.homeTeam}}', 'homeCtrl.homePlayers')
+        +team('{{homeCtrl.game.outTeam}}', 'homeCtrl.outPlayers')

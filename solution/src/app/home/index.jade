@@ -7,9 +7,12 @@ section.game
         br
         span vs {{homeCtrl.game.outTeam}}
     .content
-        .game__info
-            p {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
-            p {{homeCtrl.game.stadium}}
+        .game__info(ng-switch="homeCtrl.game.cancelled")
+            div(ng-switch-default)
+                p {{homeCtrl.game.date}} - {{homeCtrl.game.start}}
+                p {{homeCtrl.game.stadium}}
+            div(ng-switch-when="true")
+                p.game__info--cancelled Cancelled
 
         .game__teams
             .game__team--home

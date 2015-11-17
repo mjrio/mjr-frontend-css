@@ -34,3 +34,10 @@
   text-align: center;
   margin: 100px 0;
 }
+
+.game__info--cancelled {
+  background: linear-gradient(90deg, blue 0%, blue 33%, white 33%, white 66%, red 66%, red 100%);
+  color: black;
+  padding: 10px;
+  text-transform: uppercase;
+}
