@@ -1,0 +1,158 @@
+$max-width: 800px;
+
+.player {
+    color: #444;
+    text-align: center;
+}
+
+.player__name {
+    color: #444;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 30px;
+    text-transform: uppercase;
+}
+
+.player__number {
+    font-size: 400px;
+    position: relative;
+    bottom: -80px;
+}
+
+.player__picture {
+    border: 10px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: block;
+    height: 150px;
+    margin: -75px auto 0;
+    position: relative;
+    width: 150px;
+    z-index: 10;
+}
+
+.specs {
+    margin: 0 auto;
+    max-width: $max-width;
+}
+
+.spec {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 33%;
+}
+
+.spec__icon {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 30px;
+}
+
+.spec__text {
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bio {
+    margin: 50px auto;
+    max-width: $max-width;
+    width: 100%;
+}
+
+.stats {
+    margin: 0 auto;
+    max-width: $max-width;
+}
+
+.stat {
+    background-color: #E9662C;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    margin: 0 2%;
+    padding: 20px;
+    width: 21%;
+
+    &:nth-child(2) {
+        background-color: #FBEB4D;
+        color: #000;
+    }
+
+    &:nth-child(3) {
+        background-color: #00AC65;
+    }
+
+    &:nth-child(4) {
+        background-color: #068894;
+    }
+}
+
+.stat__number {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.stat__text {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #444;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 70px 0 30px;
+    text-transform: uppercase;
+}
+
+.game {
+    margin: 0 auto 50px;
+    max-width: $max-width;
+    width: 100%;
+}
+
+.game__team {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &:first-child {
+        text-align: right;
+    }
+}
+
+.game__flag {
+    display: inline-block;
+    margin: 0 2%;
+    text-align: center;
+    vertical-align: middle;
+    width: 6%;
+}
+
+.game__score {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.btn {
+    background: #E9662C;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+
+    &:hover {
+        background: darken(#E9662C, 10);
+    }
+}

@@ -1,0 +1,23 @@
+$border-color: #e5e5e5;
+$hover-color: #eee;
+
+.list {
+    border: 1px solid $border-color;
+}
+
+.list__item {
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.list__link {
+    display: block;
+    padding: 20px;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}

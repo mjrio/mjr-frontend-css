@@ -1,5 +1,21 @@
+.header {
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
 .header__text {
-  font-size: 200px;
-  font-weight: 700;
-  text-transform: uppercase;
+    color: rgba(255,255,255,.5);
+    font-size: 200px;
+    font-weight: 700;
+    // margin-top: -70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.player__number {
+
 }
