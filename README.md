@@ -4,42 +4,42 @@
 
 #### Chapter 1: The Basics
 
-- [Introduction](docs/Chapter%201:%20The%20Basics/1.1%20Introduction.md)
-- [Colors](docs/Chapter%201:%20The%20Basics/1.2%20Colors.md)
-- [Length Units](docs/Chapter%201:%20The%20Basics/1.3%20Length%20Units.md)
-- [Typography](docs/Chapter%201:%20The%20Basics/1.4%20Typography.md)
-- [Selectors](docs/Chapter%201:%20The%20Basics/1.5%20Selectors.md)
+- [Introduction](docs/Chapter-1--The-Basics/1.1-Introduction.md)
+- [Colors](docs/Chapter-1--The-Basics/1.2-Colors.md)
+- [Length Units](docs/Chapter-1--The-Basics/1.3-Length-Units.md)
+- [Typography](docs/Chapter-1--The-Basics/1.4-Typography.md)
+- [Selectors](docs/Chapter-1--The-Basics/1.5-Selectors.md)
 
 #### Chapter 2: Deep Dive
 
-- [CCSOM](docs/Chapter%202:%20Deep%20Dive/2.1%20DOM%20and%20CSSOM.md)
-- [Render Tree](docs/Chapter%202:%20Deep%20Dive/2.2%20Render%20Tree.md)
-- [Render Blocking CSS](docs/Chapter%202:%20Deep%20Dive/2.3%20Render%20Blocking%20CSS.md)
+- [CCSOM](docs/Chapter-2--Deep-Dive/2.1-DOM-and-CSSOM.md)
+- [Render Tree](docs/Chapter-2--Deep-Dive/2.2-Render-Tree.md)
+- [Render Blocking CSS](docs/Chapter-2--Deep-Dive/2.3-Render-Blocking-CSS.md)
 
 #### Chapter 3: Layout
 
-- [Sizing](docs/Chapter%203:%20Layout/3.1%20Sizing.md)
-- [Positioning](docs/Chapter%203:%20Layout/3.2%20Positioning.md)
-- [Alignment](docs/Chapter%203:%20Layout/3.3%20Alignment.md)
+- [Sizing](docs/Chapter-3--Layout/3.1-Sizing.md)
+- [Positioning](docs/Chapter-3--Layout/3.2-Positioning.md)
+- [Alignment](docs/Chapter-3--Layout/3.3-Alignment.md)
 
 #### Chapter 4: Responsive Grid
 
-- [Media Queries](docs/Chapter%204:%20Responsive%20Grid/4.1%20Media%20Queries.md)
-- [Grid Systems](docs/Chapter%204:%20Responsive%20Grid/4.2%20Grid%20Systems.md)
-- [Responsive Grid](docs/Chapter%204:%20Responsive%20Grid/4.3%20Responsive%20Grid.md)
+- [Media Queries](docs/Chapter-4--Responsive-Grid/4.1-Media-Queries.md)
+- [Grid Systems](docs/Chapter-4--Responsive-Grid/4.2-Grid-Systems.md)
+- [Responsive Grid](docs/Chapter-4--Responsive-Grid/4.3-Responsive-Grid.md)
 
 #### Chapter 5: Animations and Transitions
 
-- [Transitions](docs/Chapter%205:%20Animations%20and%20Transitions/5.1%20Transitions.md)
-- [Animations](docs/Chapter%205:%20Animations%20and%20Transitions/5.2%20Animations.md)
+- [Transitions](docs/Chapter-5--Animations-and-Transitions/5.1-Transitions.md)
+- [Animations](docs/Chapter-5--Animations-and-Transitions/5.2-Animations.md)
 
 #### Chapter 6: Scalable CSS
 
-- [Project Structure](docs/Chapter%206:%20Scalable%20CSS/6.1%20Project%20Structure.md)
-- [Preprocessors](docs/Chapter%206:%20Scalable%20CSS/6.2%20Preprocessors.md)
-- [BEM](docs/Chapter%206:%20Scalable%20CSS/6.3%20BEM.md)
+- [Project Structure](docs/Chapter-6--Scalable-CSS/6.1-Project-Structure.md)
+- [Preprocessors](docs/Chapter-6--Scalable-CSS/6.2-Preprocessors.md)
+- [BEM](docs/Chapter-6--Scalable-CSS/6.3-BEM.md)
 
-#### Resources 
+#### Resources
 
 All content is based on articles found on the internet. A list of the resources can be found [here](./docs/resources.md).
 
