@@ -9,6 +9,7 @@
 - [Length Units](docs/Chapter-1--The-Basics/1.3-Length-Units.md)
 - [Typography](docs/Chapter-1--The-Basics/1.4-Typography.md)
 - [Selectors](docs/Chapter-1--The-Basics/1.5-Selectors.md)
+- [Specificity](docs/Chapter-1--The-Basics/1.6-Specificity.md)
 
 #### Chapter 2: Deep Dive
 
