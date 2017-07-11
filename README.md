@@ -26,7 +26,9 @@
 
 - [Media Queries](docs/Chapter-4--Responsive-Grid/4.1-Media-Queries.md)
 - [Grid Systems](docs/Chapter-4--Responsive-Grid/4.2-Grid-Systems.md)
-- [Responsive Grid](docs/Chapter-4--Responsive-Grid/4.3-Responsive-Grid.md)
+- [Flexbox](docs/Chapter-4--Responsive-Grid/4.3-Flexbox.md)
+- [Grid Layout](docs/Chapter-4--Responsive-Grid/4.4-Grid-layout.md)
+<!-- - [Responsive Grid](docs/Chapter-4--Responsive-Grid/4.3-Responsive-Grid.md) -->
 
 #### Chapter 5: Animations and Transitions
 
@@ -45,4 +47,4 @@ All content is based on articles found on the internet. A list of the resources 
 
 #### Authors
 
-Written by Wart Claes and Bjorn Rombaut on behalf of [Euricom](http://www.euri.com).
+Written by [Wart Claes](https://github.com/WartClaes) and [Bjorn Rombaut](https://github.com/bjornrombaut) on behalf of [Euricom](http://www.euri.com).
