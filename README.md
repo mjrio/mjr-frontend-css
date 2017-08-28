@@ -27,7 +27,9 @@
 
 - [Media Queries](docs/Chapter-4--Responsive-Grid/4.1-Media-Queries.md)
 - [Grid Systems](docs/Chapter-4--Responsive-Grid/4.2-Grid-Systems.md)
-- [Responsive Grid](docs/Chapter-4--Responsive-Grid/4.3-Responsive-Grid.md)
+- [Flexbox](docs/Chapter-4--Responsive-Grid/4.3-Flexbox.md)
+- [Grid Layout](docs/Chapter-4--Responsive-Grid/4.4-Grid-layout.md)
+<!-- - [Responsive Grid](docs/Chapter-4--Responsive-Grid/4.3-Responsive-Grid.md) -->
 
 #### Chapter 5: Animations and Transitions
 
@@ -40,10 +42,14 @@
 - [Preprocessors](docs/Chapter-6--Scalable-CSS/6.2-Preprocessors.md)
 - [BEM](docs/Chapter-6--Scalable-CSS/6.3-BEM.md)
 
+#### Chapter 7: The Future
+
+- [Houdini](docs/Chapter-7-The-Future/7.1-Houdini.md)
+
 #### Resources
 
 All content is based on articles found on the internet. A list of the resources can be found [here](./docs/resources.md).
 
 #### Authors
 
-Written by Wart Claes and Bjorn Rombaut on behalf of [Euricom](http://www.euri.com).
+Written by [Wart Claes](https://github.com/WartClaes) and [Bjorn Rombaut](https://github.com/bjornrombaut) on behalf of [Euricom](http://www.euri.com).
