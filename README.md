@@ -43,7 +43,7 @@
 
 #### Chapter 7: The Future
 
-- [Houdini](docs/Chapter-7--The-Future/7.1-Houdini.md)
+- [Houdini](docs/Chapter-7-The-Future/7.1-Houdini.md)
 
 #### Resources
 
