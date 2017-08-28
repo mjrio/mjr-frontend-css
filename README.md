@@ -41,6 +41,10 @@
 - [Preprocessors](docs/Chapter-6--Scalable-CSS/6.2-Preprocessors.md)
 - [BEM](docs/Chapter-6--Scalable-CSS/6.3-BEM.md)
 
+#### Chapter 7: The Future
+
+- [Houdini](docs/Chapter-7--The-Future/7.1-Houdini.md)
+
 #### Resources
 
 All content is based on articles found on the internet. A list of the resources can be found [here](./docs/resources.md).
