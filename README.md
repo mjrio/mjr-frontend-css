@@ -25,10 +25,10 @@
 
 #### Chapter 4: Practical Grid
 
-- [Media Queries](docs/Chapter-4--Practical-Grid/4.1-Media-Queries.md)
-- [Grid Systems](docs/Chapter-4--Practical-Grid/4.2-Grid-Systems.md)
-- [Flexbox](docs/Chapter-4--Practical-Grid/4.3-Flexbox.md)
-- [Grid Layout](docs/Chapter-4--Practical-Grid/4.4-Grid-layout.md)
+- [Media Queries](docs/Chapter-4--Practical-Grids/4.1-Media-Queries.md)
+- [Grid Systems](docs/Chapter-4--Practical-Grids/4.2-Grid-Systems.md)
+- [Flexbox](docs/Chapter-4--Practical-Grids/4.3-Flexbox.md)
+- [Grid Layout](docs/Chapter-4--Practical-Grids/4.4-Grid-layout.md)
 <!-- - [Responsive Grid](docs/Chapter-4--Responsive-Grid/4.3-Responsive-Grid.md) -->
 
 #### Chapter 5: Animations and Transitions
