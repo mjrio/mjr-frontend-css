@@ -22,6 +22,8 @@
 - [Sizing](docs/Chapter-3--Layout/3.1-Sizing.md)
 - [Positioning](docs/Chapter-3--Layout/3.2-Positioning.md)
 - [Alignment](docs/Chapter-3--Layout/3.3-Alignment.md)
+- [Flexbox](docs/Chapter-3--Layout/3.4-Flexbox.md)
+- [Grid](docs/Chapter-3--Layout/3.5-Grid.md)
 
 #### Chapter 4: Practical Grid
 
